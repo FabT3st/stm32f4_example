@@ -1,4 +1,4 @@
 /.metadata/
-/i2c_loop/Debug/
-/i2c_loop/system/
-/i2c_loop/ldscripts/
+Debug/
+system/
+ldscripts/
