@@ -42,6 +42,7 @@ uint8_t isLoop();
 void finalize();
 
 int main(int argc, char* argv[]){
+	HAL_Init();
 	setupMaster();
 	setupSlave();
 	setupBsp();
