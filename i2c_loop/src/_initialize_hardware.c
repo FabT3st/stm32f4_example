@@ -81,8 +81,6 @@ __initialize_hardware(void)
   configure_system_clock();
 }
 
-#if 0
-
 // This is a sample SysTick handler, use it if you need HAL timings.
 void __attribute__ ((section(".after_vectors")))
 SysTick_Handler(void)
@@ -90,7 +88,7 @@ SysTick_Handler(void)
 	HAL_IncTick();
 }
 
-#endif
+
 
 // ----------------------------------------------------------------------------
 
