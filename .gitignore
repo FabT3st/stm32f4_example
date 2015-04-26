@@ -1,4 +1,9 @@
 /.metadata/
 Debug/
-system/
-ldscripts/
+Doc/
+Release/
+RemoteSystemsTempFiles/
+*.doxyfile
+
+
+
